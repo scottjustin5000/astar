@@ -1,0 +1,30 @@
+{
+  "name": "astar",
+  "version": "1.0.0",
+  "description": "simple astar implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha './src/test.js' --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottjustin5000/astar.git"
+  },
+  "keywords": [
+    "astar",
+    "path finding",
+    "graph traversal"
+  ],
+  "author": "scottjustin5000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottjustin5000/astar/issues"
+  },
+  "homepage": "https://github.com/scottjustin5000/astar#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
+  }
+}

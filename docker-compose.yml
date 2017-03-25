@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  astar:
+    build: .
+    image: astar:dev
+    environment:
+      - "NODE_ENV=development"
+    volumes:
+      - .:/home/scottjustin5000/astar
+      - /home/scottjustin5000/astar/node_modules
+    command: npm test
