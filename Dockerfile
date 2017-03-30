@@ -43,7 +43,7 @@ RUN chown -R $USERVAR:$USERVAR $HOME && \
     chown -R $USERVAR:$USERVAR $HOME/* && \
     chown -R $USERVAR:$USERVAR $HOME/.npm
 
-# run app as sportradar, set working dir, run install
+# run app as user, set working dir, run install
 USER $USERVAR
 WORKDIR $HOME/$APP_FOLDER
 RUN npm install
