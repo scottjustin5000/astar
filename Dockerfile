@@ -2,9 +2,9 @@ FROM debian:jessie
 
 ARG NODE_MAJOR_VERSION=6
 
-ENV USERVAR=sportradar
+ENV USERVAR=scottjustin5000
 ENV HOME=/home/$USERVAR
-ENV APP_FOLDER=badlands
+ENV APP_FOLDER=astar
 
 RUN apt-get update && \
     apt-get install -y git ssh-client curl adduser build-essential && \
